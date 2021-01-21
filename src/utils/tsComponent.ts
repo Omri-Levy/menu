@@ -11,7 +11,7 @@ fs.writeFile(
 	`./${fileName}.test.tsx`,
 	`describe(\`${fileName}\`, () => {
 	it(\`${fileName} temp\`, () => {
-		expect(true).toBeTruthy();
+		expect(true).toBe(true);
 	});
 });`,
 	// eslint-disable-next-line

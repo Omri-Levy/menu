@@ -1,5 +1,5 @@
 describe(`Head`, () => {
 	it(`Head temp`, () => {
-		expect(true).toBeTruthy();
+		expect(true).toBe(true);
 	});
 });

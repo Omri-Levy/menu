@@ -7,7 +7,7 @@ const Head: React.FunctionComponent = () => {
 
 	return (
 		<Helmet>
-			<title>Temp</title>
+			<title>Menu</title>
 			<link rel='preconnect' href='https://fonts.gstatic.com'/>
 			<link href={fontUrl} rel='stylesheet'/>
 		</Helmet>

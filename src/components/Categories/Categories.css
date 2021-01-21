@@ -1,0 +1,18 @@
+button {
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #bb9351;
+    font-weight: 600;
+    margin: 1rem;
+    font-size: 1.8rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    background-color: #bb9351;
+    color: #fff;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
